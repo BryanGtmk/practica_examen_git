@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Restaurante Sabores</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <style>
+        body { font-family: Arial, sans-serif; margin: 0; background: #f8f8f8; }
+        header { background: #c0392b; color: #fff; padding: 30px 0; text-align: center; }
+        nav { background: #e74c3c; padding: 10px 0; text-align: center; }
+        nav a { color: #fff; margin: 0 15px; text-decoration: none; font-weight: bold; }
+        .hero { background: url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?auto=format&fit=crop&w=1200&q=80') center/cover; height: 350px; display: flex; align-items: center; justify-content: center; color: #fff; }
+        .hero h1 { background: rgba(0,0,0,0.5); padding: 20px; border-radius: 10px; }
+        .section { max-width: 900px; margin: 40px auto; background: #fff; padding: 30px; border-radius: 10px; box-shadow: 0 2px 8px rgba(0,0,0,0.1);}
+        .menu { display: flex; flex-wrap: wrap; gap: 20px; }
+        .menu-item { flex: 1 1 250px; background: #f2f2f2; padding: 20px; border-radius: 8px; }
+        footer { background: #c0392b; color: #fff; text-align: center; padding: 15px 0; margin-top: 40px; }
+        @media (max-width: 600px) {
+            .menu { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Restaurante Sabores</h1>
+        <p>¡Descubre una experiencia culinaria única!</p>
+    </header>
+    <nav>
+        <a href="#">Inicio</a>
+        <a href="#">Menú</a>
+        <a href="#">Reservas</a>
+        <a href="#">Contacto</a>
+    </nav>
+    <div class="hero">
+        <h1>Bienvenido a Sabores</h1>
+    </div>
+    <section class="section">
+        <h2>Nuestro Menú Destacado</h2>
+        <div class="menu">
+            <div class="menu-item">
+                <h3>Pasta Alfredo</h3>
+                <p>Cremosa pasta con salsa Alfredo y queso parmesano.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Ensalada César</h3>
+                <p>Lechuga fresca, pollo a la parrilla y aderezo César casero.</p>
+            </div>
+            <div class="menu-item">
+                <h3>Pizza Margarita</h3>
+                <p>Tomate, mozzarella y albahaca sobre masa artesanal.</p>
+            </div>
+        </div>
+    </section>
+    <section class="section">
+        <h2>Sobre Nosotros</h2>
+        <p>En Restaurante Sabores, combinamos ingredientes frescos y recetas tradicionales para ofrecer platos deliciosos en un ambiente acogedor.</p>
+    </section>
+    <footer>
+        &copy; 2024 Restaurante Sabores. Todos los derechos reservados.
+    </footer>
+</body>
+</html>
